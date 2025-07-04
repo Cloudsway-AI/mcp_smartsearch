@@ -1,5 +1,4 @@
-from .server import mcp
+from . import main
 
-def main():
-    """Entry point for the Smart Search MCP server."""
-    mcp.run(transport="stdio")
+if __name__ == "__main__":
+    main()
